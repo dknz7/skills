@@ -1,10 +1,14 @@
 import sys
+import os
 import json
 import requests
 from google import genai
 from google.genai import types
 
-GOOGLE_API_KEY = "REDACTED"
+GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
+if not GOOGLE_API_KEY:
+    print("ERROR: GOOGLE_API_KEY environment variable is not set.")
+    sys.exit(1)
 
 MODELS = {
     "nb2":   "gemini-3.1-flash-image-preview",  # Nano Banana 2
