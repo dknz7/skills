@@ -19,8 +19,8 @@ For skills that reference external APIs or tools, check for an `.env.example` fi
 ## Notes
 
 - **This is a personal collection**, not an official distribution. Many of these skills are open source and publicly available from their original creators — search for them to get the latest version. What's here is a snapshot from my own setup and will go stale.
-- Skills are snapshots. If a skill references an external API (NotebookLM, Stitch, Nano Banana), you'll need your own credentials.
-- The `nano-banana-images/prompts/` folder includes example prompts — swap in your own subject matter.
+- Skills are snapshots. If a skill references an external API (NotebookLM, Stitch, Nano Banana), you'll need your own credentials (API key or OAUTH2 etc).
+- The `nano-banana-images/prompts/` folder includes an example JSON prompt — Study it to get the most out of Nano Banana image gen. It loves JSON structured prompts, not natural language for best results.
 
 ---
 
