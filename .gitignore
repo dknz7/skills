@@ -1,5 +1,3 @@
 # Local Claude settings (machine-specific paths and permissions)
 **/.claude/
 
-# Embedded repo — pending submodule decision
-ui-ux-pro-max-skill/
