@@ -127,6 +127,5 @@ Workflow discipline skills for Claude Code — enforce good patterns, not just g
 
 ## Notes
 
-- `ui-ux-pro-max-skill` is excluded — it's an embedded repo from [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill). Clone that separately if you need it.
 - Skills are snapshots. If a skill references an external API (NotebookLM, Stitch, Nano Banana), you'll need your own credentials.
 - The `nano-banana-images/prompts/` folder includes example prompts — swap in your own subject matter.
